@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	list-style: none;
+	
+}
+
+body {
+	background-color: #7b7b9b ;
+}
+
+.full {
+	display: flex;
+	
+
+}
+
+
+.left {
+	width: 300px;
+	display: inline-block;
+	grid-template-columns: 2fr 4fr;
+	margin-left: 270px;
+	background-color: rgb(236, 232, 232) ;
+	height: 1000px;
+}
+
+.left img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border: solid #7b7b9b ;
+	border-width: 15px 15px 15px 15px;
+	object-fit: cover;
+	padding: 10px;
+	
+}
+
+
+
+.right {
+	width: 520px;
+	background-color: white ;
+	overflow-y: scroll;
+}
+
+.right h1 {
+	margin-left: 50px;
+	margin-top: 70px;
+	color: #7b7b9b;
+	font-size: xx-large;
+}
+
+.right h3 {
+	margin-left: 50px;
+	color: #7b7b9b;
+	font-size: medium;
+}
+.right h3 {
+	margin-left: 50px;
+	color: #7b7b9b;
+	font-size: medium;
+	font-weight: 400;
+}
+
+.right p {
+	margin-left: 50px;
+	margin-top: 50px;
+	color: black;
+	font-size: medium;
+	max-width: 350px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	
+}
+
+.kontak {
+	margin-top: 1rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #cbcbcf;
+	padding: 4px;
+	padding-left: 50px;
+	color: #6b6b8d;
+}
+
+ ul {
+	 margin-top: 30px;
+}
+ li {
+	margin-top: 10px ;
+	margin-left: 45px;
+	color: #6b6b8d;
+}
+ li a {
+	margin-top: 10px ;
+	margin-left: 5px;
+	color: #6b6b8d;
+	text-decoration: none;
+	font-weight: bold;
+}
+.pendidikan {
+	margin-top: 3rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #cbcbcf;
+	padding: 4px;
+	padding-left: 50px;
+	color: #6b6b8d;
+	list-style: none;
+}
+
+
+.sekolah {
+	font-weight: bold;
+}
+
+
+.keahlian{
+	margin-top: 1rem;
+	margin-left: 30px;
+	margin-right: 3px;
+	background-color: #cbcbcf;
+	padding: 4px;
+	padding-left: 50px;
+	color: #6b6b8d;
+}
+
+.pengalaman{
+	margin-top: 2.5rem;
+	margin-left: 30px;
+	margin-right: 60px;
+	background-color: #9d9dbd;
+	padding: 4px;
+	padding-left: 50px;
+	color: rgb(252, 252, 252);
+}
+
+.hobi{
+	margin-top: 2.5rem;
+	margin-left: 30px;
+	margin-right: 60px;
+	background-color: #9d9dbd;
+	padding: 4px;
+	padding-left: 50px;
+	color: rgb(252, 252, 252);
+}
+
+
+
+.right .parag {
+	color: #9d9dbd ;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #7b7b9b */
